@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All products on DK</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googlrapis.com/css2?
+    family=Poopins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+        <div class="container">  
+            <div class="navbar">
+                <div class="logo">
+            <img src="DK.jpg" width="125px">
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.cart.html">Products</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="account.html">Login</a></li>
+            </ul>
+        </nav>
+        <a href="cart.html"><img src="cart.webp" width="30px" height="30px"> </a>
+        <img src="menu.2.jpg" class="menu-icon"
+         onclick="menutoggle()">
+      </div>
+</div>
+
+<!-- male shoes -->
+<div class="small-container">
+    <h2 class="title"> MALE PRODUCTS </h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="girls-1.jpg">
+            <h4> White Shoes <br> MALE </h4>
+            <P> RS 2500 </P>
+        </div>
+        <div class="col-4">
+            <img src="girls-2.jpg">
+            <h4> Shoes </h4>
+            <P> RS 2500 </P>
+        </div>
+        <div class="col-4">
+            <img src="girls-3.jpg">
+            <h4> Shoes </h4>
+            <P> RS 2500 </P>
+        </div>
+        <div class="col-4">
+            <img src="girls-5.jpg">
+            <h4> Shoes </h4>
+            <P> RS 2500 </P>
+        </div>
+        <div class="col-4">
+            <img src="girls-6.jpg">
+            <h4> Shoes </h4>
+            <P> RS 2500 </P>
+        </div>
+        <div class="col-4">
+            <img src="girls-7.jpg">
+            <h4> Shoes </h4>
+            <P> RS 2500 </P>
+        </div>
+        <div class="col-4">
+            <img src="girls-8.jpg">
+            <h4> Shoes </h4>
+            <P> RS 2500 </P>
+        </div>
+    </div>
+</div>
+
+<!-----js for toggle menu------>
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else{
+            MenuItems.style.maxHeight = "0px";    
+         }
+    }
+</script>
+</body>
+</html>

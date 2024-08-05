@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+  <html lang="en">
+ <head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>All Products-DK </title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap"
+     rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" 
+     referrerpolicy="no-referrer" />
+          </head>
+          <div class="header">
+            <div class="container">  
+             <div class="navbar">
+                <div class="logo">
+                    <img src="DK.jpg" width="125px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.cart.html">Products</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="account.html">Login</a></li>
+                    </ul>
+                </nav>
+                <img src="cart.webp" width="30px" height="30px">
+                <img src="menu.2.jpg" class="menu-icon"
+                 onclick="menutoggle()">
+              </div>
+            </div>
+        </div>
+    <!---------single product details--------->
+
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                 <img src="Sneaker White.webp" width="100%" id="ProductImg">
+
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="shoes-1.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="side zipper.png" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                     <img src="Sneakers.black.avif" width="100%" class="small-img">
+                    </div> 
+                    <div class="small-img-col">
+                     <img src="Sneaker White.webp" width="100%" class="small-img">
+                    </div>
+                </div>
+                     <div class="col-2">
+                           <p> Home / Sneaker</p>
+                                <h1> White Sneakers </h1>
+                                 <h4>Rs 3000</h4>
+                                   <select>
+                                        <option>38</option>
+                                        <option>39</option>
+                                        <option>40</option>
+                                        <option>41</option>
+                                        <option>42</option>
+                                 </select>
+                                      <input type="number" value="1">
+                                       <a href="" class="btn"> Add to Cart</a>
+                                       <h3>Product Details</h3>
+                                <p> White sneakers are good to wear ,comfortable and feel good.</p>
+                             </div>
+                            </div>
+                         </div>
+                         <div class="small-container">
+                            <div class="row row-2">
+                       <h2>All Products</h2>
+                  <select> 
+                            <option>Default Shorting</option>
+                            <option>Short by price</option>
+                            <option>Short by Popularity</option>
+                            <option>Short by rating</option>
+                            <option>Short by rate</option>
+                 </select>
+              </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="Casual shoes.jpg">
+            <h4>Casual shoes <br> Male</h4>
+           
+            <p> RS 1  </p>
+        </div>
+        <div class="col-4">
+            <img src="side zipper.png">
+            <h4>Side zipper shoes <br> Female </h4>
+           
+            <p> RS 1 </p>
+        </div>
+        <div class="col-4">
+            <img src="Sneakers.black.avif">
+            <h4>Sneakers white <br> Male </h4>
+            
+            <p> RS 1  </p>
+        </div>
+        <div class="col-4">
+            <img src="Sneaker White.webp">
+            <h4>Sneakers white <br> both </h4>
+          
+            <p> RS 3000 </p>
+        </div>
+    </div>
+
+
+</div>
+  
+
+<!-------footer------>
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <img src="DK.jpg" width="100px">
+                <p> Our Purpose is to sustainable make the pleasure 
+                    and benefits of sports accessible to the many.
+                </p>
+            </div>
+            <div class="footer-col-2">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Return policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-3">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>instagram</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--------- js for toggle menu ------->
+
+<script>
+    var MenuItems = document.getElementById("MenuItems");                            
+         MenuItems.style.maxHeight = "0px";
+
+                        function menutoggle(){
+
+                      if (MenuItems.style.maxHeight == "0px")
+                      {
+                          MenuItems.style.maxHeight ="200px";
+                       }
+                  else
+                      {
+                         MenuItems.style.maxHeight = "0px";
+                         }
+         }
+</script>
+
+
+<!--------- js for product gallery-------->
+
+<script>
+    var ProductImg = document.getElementById("ProductImg");
+    var SmallImg = document.getElementsByClassName("small-img");
+    var side = document.getElementsByClassName("side-img");
+    var sneak = document.getElementsByClassName("sneak-img");
+
+    SmallImg[0].onclick = function()
+    {
+        ProductImg.scr = SmallImg[0].src;
+    }
+    SmallImg[1].onclick = function()
+    {
+        ProductImg.scr = SmallImg[1].src;
+    } 
+    SmallImg[2].onclick = function()
+    {
+        ProductImg.scr = SmallImg[2].src;
+    }
+   SmallImg[3].onclick = function()
+    {
+        ProductImg.scr = SmallImg[3].src;
+    }
+</script>
+
+ 
+</body>
+</html>

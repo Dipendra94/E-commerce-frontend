@@ -1,0 +1,47 @@
+[
+    {
+        "id":1,
+        "name": "white shoes",
+        "brand": "DK",
+        "price": 2000,
+        "stocks": 50,
+        "description": "comfortable shoes",
+        "image": "male.1.jpg"
+    },
+    {
+        "id":2,
+        "name": "white shoes",
+        "brand": "DK",
+        "price": 2000,
+        "stocks": 50,
+        "description": "comfortable shoes",
+        "image": "male.1.jpg"
+    },
+    {
+        "id":3,
+        "name": "white shoes",
+        "brand": "DK",
+        "price": 2000,
+        "stocks": 50,
+        "description": "comfortable shoes",
+        "image": "male.1.jpg"
+    },
+    {
+        "id":4,
+        "name": "white shoes",
+        "brand": "DK",
+        "price": 2000,
+        "stocks": 50,
+        "description": "comfortable shoes",
+        "image": "male.1.jpg"
+    },
+    {
+        "id":5,
+        "name": "white shoes",
+        "brand": "DK",
+        "price": 2000,
+        "stocks": 50,
+        "description": "comfortable shoes",
+        "image": "male.1.jpg"
+    }
+]
